@@ -3,15 +3,16 @@ package main
 import (
 	"fmt"
 
-	"github.com/rajat-mangla/dsa-playground/arrays"
+	"github.com/rajat-mangla/dsa-playground/sorting"
 )
 
 func main() {
 
-	arr := []int{3, 1, 4, 1, 5, 9, 2, 6, 5, 3, 5}
-	fmt.Println(arrays.BuildMaxHeap(arr))
-
-	fmt.Println(arrays.HeapSort(arr))
+	arr := []int{-2, 45, 0, 11, -9, 88, -97, -202, 747}
+	//arr = []int{12, 11, 13, 5, 6, 7}
+	fmt.Println(sorting.HeapSort(arr))
+	//fmt.Println(arrays.BuildMaxHeap(arr))
+	//fmt.Println(arrays.HeapSort(arr))
 }
 
 // [9 6 4 5 5 3 2 1 1 3 5]
