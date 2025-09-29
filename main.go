@@ -10,7 +10,7 @@ func main() {
 
 	arr := []int{-2, 45, 0, 11, -9, 88, -97, -202, 747}
 	//arr = []int{12, 11, 13, 5, 6, 7}
-	fmt.Println(sorting.HeapSort(arr))
+	fmt.Println(sorting.QuickSort(arr))
 	//fmt.Println(arrays.BuildMaxHeap(arr))
 	//fmt.Println(arrays.HeapSort(arr))
 }
