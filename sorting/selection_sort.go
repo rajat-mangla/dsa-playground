@@ -1,5 +1,6 @@
 package sorting
 
+// SelectionSort sorts an array of integers using the selection sort algorithm.
 func SelectionSort(arr []int) []int {
 	for i := range arr {
 		minIdx := i

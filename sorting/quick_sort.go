@@ -1,12 +1,12 @@
 package sorting
 
+// QuickSort sorts an array of integers using the quick sort algorithm.
 func QuickSort(arr []int) []int {
 	qs(arr, 0, len(arr)-1)
 	return arr
 }
 
 func qs(arr []int, low, high int) {
-
 	if low < high {
 
 		pIndex := partition(arr, low, high)

@@ -1,5 +1,6 @@
 package sorting
 
+// InsertionSort sorts an array of integers using the insertion sort algorithm.
 func InsertionSort(arr []int) []int {
 	for i, elem := range arr {
 		j := i - 1

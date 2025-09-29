@@ -1,5 +1,6 @@
 package sorting
 
+// BubbleSort sorts an array of integers using the bubble sort algorithm.
 func BubbleSort(arr []int) []int {
 	for i := range arr {
 		for j := i + 1; j < len(arr); j++ {

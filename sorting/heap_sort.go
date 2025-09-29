@@ -1,12 +1,15 @@
 package sorting
 
+// HeapSort sorts an array of integers using the heap sort algorithm.
 func HeapSort(arr []int) []int {
-
 	l := len(arr)
+
+	// Build max heap
 	for i := l/2 - 1; i >= 0; i-- {
 		heapify(arr, l, i)
 	}
 
+	// One by one extract elements from heap
 	for i := l - 1; i > 0; i-- {
 		arr[0], arr[i] = arr[i], arr[0]
 		heapify(arr, i, 0)
