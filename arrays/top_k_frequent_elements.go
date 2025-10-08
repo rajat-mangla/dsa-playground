@@ -129,3 +129,5 @@ func TopKFrequentUsingMinHeapV2(nums []int, k int) []int {
 // TopKFrequentUsingQuickSelect - Quick Select using frequency map
 // Time Complexity: O(N) on average, O(N^2) in the worst case
 // Space Complexity: O(N)
+func TopKFrequentUsingQuickSelect(nums []int, k int) {
+}
