@@ -1,4 +1,4 @@
-package sorting
+package sorting_algos
 
 // InsertionSort sorts an array of integers using the insertion sort algorithm.
 func InsertionSort(arr []int) []int {

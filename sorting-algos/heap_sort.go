@@ -1,4 +1,4 @@
-package sorting
+package sorting_algos
 
 // HeapSort sorts an array of integers using the heap sort algorithm.
 func HeapSort(arr []int) []int {

@@ -1,4 +1,4 @@
-package sorting
+package sorting_algos
 
 // MergeSort sorts an array of integers using the merge sort algorithm.
 func MergeSort(arr []int) []int {

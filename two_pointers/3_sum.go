@@ -6,7 +6,7 @@ import (
 
 // https://leetcode.com/problems/3sum/
 func threeSum(nums []int) [][]int {
-	// sorting is required for two sum walkthrough
+	// sorting-algos is required for two sum walkthrough
 	slices.Sort(nums)
 	ans := [][]int{}
 

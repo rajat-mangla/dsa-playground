@@ -1,4 +1,4 @@
-package leetcode_daily
+package quite_hard
 
 import (
 	"testing"

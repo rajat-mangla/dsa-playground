@@ -1,4 +1,4 @@
-package sorting
+package sorting_algos
 
 // BubbleSort sorts an array of integers using the bubble sort algorithm.
 func BubbleSort(arr []int) []int {

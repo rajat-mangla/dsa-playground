@@ -1,4 +1,4 @@
-package sorting
+package sorting_algos
 
 // SelectionSort sorts an array of integers using the selection sort algorithm.
 func SelectionSort(arr []int) []int {

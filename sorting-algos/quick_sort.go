@@ -1,4 +1,4 @@
-package sorting
+package sorting_algos
 
 // QuickSort sorts an array of integers using the quick sort algorithm.
 func QuickSort(arr []int) []int {
