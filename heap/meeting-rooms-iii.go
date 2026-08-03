@@ -30,11 +30,11 @@ func (h *meetingHeap) Pop() any {
 
 type roomsHeap []int
 
-func (h *roomsHeap) Len() int { return len(*h) }
+func (h roomsHeap) Len() int { return len(h) }
 
-func (h *roomsHeap) Less(i, j int) bool { return (*h)[i] < (*h)[j] }
+func (h roomsHeap) Less(i, j int) bool { return (h)[i] < (h)[j] }
 
-func (h *roomsHeap) Swap(i, j int) { (*h)[i], (*h)[j] = (*h)[j], (*h)[i] }
+func (h roomsHeap) Swap(i, j int) { (h)[i], (h)[j] = (h)[j], (h)[i] }
 
 func (h *roomsHeap) Push(x any) {
 	*h = append(*h, x.(int))
