@@ -2,18 +2,24 @@
 - This directory contains implementations of various algorithms and operations related to arrays. 
 - Each file focuses on a specific algorithm or operation, providing a clear and concise implementation.
 
-1. **K frequent Elements** (`top_k_frequent_elements.go`):
-   - There are mostly two approaches to solve such problem:
-     1. Bucketing sort to group elements by their frequency, then iterate from the highest frequency to get the top k elements.
-        1. Time Complexity: O(n)
-        2. Space Complexity: O(n)
-     2. Using a min-heap (priority queue) to sort the elements.
-        1. Time Complexity: O(n log n)
-        2. Space Complexity: O(n)
-     3. Using a min-heap (priority queue) to keep track of the top k elements.
-        1. Time Complexity: O(n log k)
-        2. Space Complexity: O(n)
-     3. Using the Quickselect algorithm to partition the array and find the k most frequent elements.
+### K frequent Elements (`top_k_frequent_elements.go`):
+There are mostly two approaches to solve such problem:
+1. Bucketing sort to group elements by their frequency, then iterate from the highest frequency to get the top k elements. 
+   1. Time Complexity: O(n)
+   2. Space Complexity: O(n)
+2. Using a min-heap (priority queue) to sort the elements.
+   1. Time Complexity: O(n log n)
+   2. Space Complexity: O(n)
+3. Using a min-heap (priority queue) to keep track of the top k elements.
+   1. Time Complexity: O(n log k)
+   2. Space Complexity: O(n)
+4. **Using the Quickselect algorithm to partition the array and find the k most frequent elements.**
+
+### make-lexicographically-smallest-array-by-swapping-elements
+1. Makes use of sorting with grouping
+2. Medium to Hard problem
+3. Time complexity: O(n log n + n log n)
+4. Space complexity: O(n + n)
 
 [//]: # ()
 [//]: # (2. **Two Sum** &#40;`two_sum.go`&#41;:)
@@ -27,4 +33,3 @@
 [//]: # (   - Time Complexity: O&#40;n&#41;)
 
 [//]: # (   - Space Complexity: O&#40;n&#41;)
-
